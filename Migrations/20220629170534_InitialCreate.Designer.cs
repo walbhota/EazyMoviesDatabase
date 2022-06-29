@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EazyMoviesDatabase.Migrations
 {
     [DbContext(typeof(EazyMoviesContext))]
-    [Migration("20220628165218_InitialCreate")]
+    [Migration("20220629170534_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,17 +26,18 @@ namespace EazyMoviesDatabase.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Genre")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<string>("Rating")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("ID");

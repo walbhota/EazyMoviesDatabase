@@ -13,6 +13,10 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+.bg-img {  
+  
+  background-image: url(Images/MovieBackground.jpg);
+  background-size: cover;
+  filter: blur(2px); 
 }
+

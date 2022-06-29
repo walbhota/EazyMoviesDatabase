@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BjA8+h32HqmrZiajrErVwy1D2p5QwIGI13rgUiE82fs=",
+  "Hash": "Jp0516vqJZPY5idy6VYlUuWVLALGsLmteJUGwscMbng=",
   "Source": "EazyMoviesDatabase",
   "BasePath": "_content/EazyMoviesDatabase",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\EazyMoviesDatabase\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EazyMoviesDatabase.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\EazyMoviesDatabase\\wwwroot\\css\\Images\\MovieBackground.jpg",
+      "SourceId": "EazyMoviesDatabase",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\EazyMoviesDatabase\\wwwroot\\",
+      "BasePath": "_content/EazyMoviesDatabase",
+      "RelativePath": "css/Images/MovieBackground.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Images\\MovieBackground.jpg"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\EazyMoviesDatabase\\wwwroot\\css\\site.css",
