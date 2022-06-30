@@ -13,10 +13,11 @@ html {
   min-height: 100%;
 }
 
-.bg-img {  
+body{  
   
   background-image: url(Images/MovieBackground.jpg);
   background-size: cover;
-  filter: blur(2px); 
+  background-color: #cccccc;
+  background-position: center;
 }
 
